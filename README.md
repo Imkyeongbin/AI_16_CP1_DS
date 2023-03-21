@@ -6,13 +6,14 @@
 
 - 들어가기 전에
     - 이 모델은 yoloV5를 사용하므로 yoloV5를 설치해야 합니다.
-    - yoloV5 설치 방법은 다음과 같습니다.
-    Clone repo and install requirements.txt in a Python>=3.7.0 environment, including PyTorch>=1.7.
-    ```
-    git clone https://github.com/ultralytics/yolov5  # clone
-    cd yolov5
-    pip install -r requirements.txt  # install
-    ```
+        - yoloV5 설치 방법은 다음과 같습니다.
+        Clone repo and install requirements.txt in a Python>=3.7.0 environment, including PyTorch>=1.7.
+        ```
+        git clone https://github.com/ultralytics/yolov5  # clone
+        cd yolov5
+        pip install -r requirements.txt  # install
+        ```
+    - yoloV5 설치 이후 모델을 바로 활용할 수 있는 패키지를 package 디렉토리에 저장하였습니다. 자세한 설명은 해당 디렉토리의 README.md에 있습니다.
 
 - 프로젝트 작성 환경
     - windows 10 64비트 22H2

@@ -1,0 +1,1 @@
+python ..\yolov5\detect.py --source ..\..\samples\video --weights best.pt
